@@ -11,7 +11,7 @@ console.log(anothername);      //output: The ibristani
 //Non primiutive value (haep memory - reference).........
 
 let userOne = {
-    email: "hussain@google.com", 
+    email: "hussain@google.com",   //this riginal object
     upi: "user@ybl"
 }
 
