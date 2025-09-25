@@ -1,4 +1,4 @@
-//daes..
+//dates.....
 
 // let myDate = new Date()
 // console.log(myDate.toString()); //Tue Sep 23 2025 22:56:56 GMT+0530 (India Standard Time)
@@ -33,3 +33,4 @@
 // newYork.toLocaleString('default', {
     // weekday: "long"
 // })
+
