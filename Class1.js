@@ -132,7 +132,7 @@ object => {}
 console.log(`x: ${x}, y: ${y}`);  // Expected output..: "x : 4, y : 3"
 
 
-// // ********* pst & pre increment *********
+// // ********* post & pre increment *********
 
     let x = 5;
 
