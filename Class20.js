@@ -1,4 +1,4 @@
-// ************ Lexical Scoping and Closer ***********
+// ************ Lexical Scoping and Closure ***********
 
 // 1)...lexical scope..........
 
@@ -36,4 +36,5 @@ const counter = outer(); //outer() called, and return inner function
 counter();  // 1
 counter();  // 2
 counter();  // 3
+
 counter();  // 4
