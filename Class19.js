@@ -18,7 +18,7 @@ class Person {
         this._email = value
      }
 }
-const person1 = new Person ("hussain@gmail.com", 234567)
+const person1 = new Person ("say@gmail.com", 234567)
 console.log(person1.password)
 console.log(person1.email)
 
@@ -48,7 +48,7 @@ function User(email, password){
     
 }
 
-const say = new User("hussain@AI.com", "alpha123")
+const say = new User("say@AI.com", "alpha123")
 
 console.log(say.password);
 
@@ -56,7 +56,7 @@ console.log(say.password);
 //by object Define....................
 
 const User = {
-    _email: 'hussain@gmail.com',
+    _email: 'say@gmail.com',
     _password: "46467",
 
    get email(){
@@ -74,4 +74,5 @@ const User = {
 }
 
 const tea = Object.create(User)
+
 console.log(tea.password);
