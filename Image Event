@@ -66,7 +66,7 @@ body{
 // },)
 
 document.querySelector('#images').addEventListener('click', function(e){
-alert(e.target.tagName);
+       alert(e.target.tagName);
 
 if(e.target.tagName === 'IMG'){
     console.log(e.target.id)
