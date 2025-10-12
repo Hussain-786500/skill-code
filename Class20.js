@@ -2,7 +2,8 @@
 
 // 1)...lexical scope..........
 
-// => inner function can use and access outer variable function but outer function can not use or accsess inner variable function.
+// => inner function can use and access outer variable function but outer function 
+//    can not use or accsess inner variable function.
 
 function outer(){
 let name = "ibrahim"; //where outer function vaiable
@@ -17,7 +18,8 @@ inner();
 outer();
 
 
-// => when inner function, remembered and can use  variable of outer function, even end of outer function, is known as Closure.
+// => when inner function, remembered and can use  variable of outer function, 
+//     even end of outer function, is known as Closure.
 
 function outer(){
     let count = 0;  //variable of outer function
@@ -38,3 +40,4 @@ counter();  // 2
 counter();  // 3
 
 counter();  // 4
+
