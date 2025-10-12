@@ -18,6 +18,8 @@ inner();
 outer();
 
 
+2).....Clouser........
+    
 // => when inner function, remembered and can use  variable of outer function, 
 //     even end of outer function, is known as Closure.
 
@@ -40,4 +42,5 @@ counter();  // 2
 counter();  // 3
 
 counter();  // 4
+
 
