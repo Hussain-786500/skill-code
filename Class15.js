@@ -35,7 +35,7 @@ const hello1 = new Promise(function(resolve, reject){
 })
 
 
-// .then,.catch Chaining Process.............
+// .then,.catch Catching Process.............
 
 const promiseOne = new Promise(function(resolve, reject){
     setTimeout(function(){
@@ -105,4 +105,5 @@ fetch('https://api.thecatapi.com/v1/images/search?limit=10')
 })
 .catch((error) => {
     console.log(error)
+
 })
