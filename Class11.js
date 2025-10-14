@@ -1,4 +1,4 @@
-// ******** execute code + cal stack *******
+// ******** execute code + call stack *******
 
 // * javaScript Execution Context...
 
@@ -16,5 +16,6 @@
 
 // let result1 = addNum(val1, val2)
 // let result2 = addNum(20, 10)
+
 
 // console.log(val1 + val2)     //30
